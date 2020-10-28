@@ -8,8 +8,8 @@ import * as serviceWorker from './serviceWorker';
 const app = (
   <BrowserRouter>
     <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+      <App />
+    </React.StrictMode>
   </BrowserRouter>
 )
 
