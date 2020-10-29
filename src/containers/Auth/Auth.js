@@ -127,6 +127,7 @@ export default class Auth extends Component {
                         <Button 
                         type="success" 
                         onClick={this.loginHandler}>
+                            disabled={!this.state.isFormValid}
                             Log in
                         </Button>
 
