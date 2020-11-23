@@ -16,8 +16,6 @@ class Quiz extends Component {
 
     onAnswerClickHandler = (answerId) => {
 
-        debugger;
-
         if (this.state.answerState) {
             const key = Object.keys(this.state.answerState)[0];
             if (this.state.answerState[key] === 'success') {
